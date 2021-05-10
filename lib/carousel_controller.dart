@@ -9,7 +9,7 @@ import 'utils.dart';
 abstract class CarouselController {
   bool get ready;
 
-  Future<Null> get onReady;
+  Future<void> get onReady;
 
   Future<void> nextPage({Duration? duration, Curve? curve});
 
